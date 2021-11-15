@@ -3445,7 +3445,7 @@
       symbol: "ETH",
       explorer: {
         name: 'explorer',
-        base: 'https://blockexplorer.boba.network',
+        base: 'https://blockexplorer.boba.network/',
         tx: function (tx) { return ("tx/" + tx); },
         addr: function (addr) { return ("address/" + addr); },
       },
